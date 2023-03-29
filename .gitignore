@@ -1,3 +1,10 @@
+# Seguimiento Daily folder
+Seguimiento Daily
+
+#Excel files
+*.xlsx
+*.xlsm
+
 # Logs
 logs
 *.log
