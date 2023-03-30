@@ -29,12 +29,16 @@ const keysToDelete = [
   "__EMPTY_3",
 ];
 
+// these columns must be re-converted to dates, JavaScript makes them numbers
 const numbersToDates = [
   "ULTODC170",
   "ULTODC171",
   "ULTODC179",
   "ULTODC262",
   "ULTODC311",
+  "Ultimo ingresoCABA",
+  "Ultimo ingresoCBA",
+  "FECHAALTA",
 ];
 
 console.log("Deleting irrelevant columns...");
